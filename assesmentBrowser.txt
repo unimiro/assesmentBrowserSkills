@@ -1,0 +1,38 @@
+2. To block the adnxs.com ads i have enterd the browser debugging mode and switched
+to Network tab, there i filtered files that came from adnxs.com domain.
+As follows i used Type sorting to sort out the xhr file that sends network request
+with this domain and blocked it.  
+
+3. a) DOM is a sort of an interface that connects website with scripts
+b) In the browser debugger i went to tab console and used a script to search for the
+element with specific ID with code: document.getElementById("header");
+There i selected an option to edit HTML of 
+this div and addet this line of code:
+<div id="rechthoek" style="width:728px;height:90px;background-color:gold;
+                               "></div>
+c) with the same command i searched for element with id="block-425022"
+there i have checked the position of the website element. There after i added a
+div element rechthoek to the html of body>super-container element and filled it 
+with this code:
+<div id="rechthoek" style="width:300px;height:250px;background-color:gold;
+position:absolute;top: 554px;left: 767px;"></div>
+
+4.
+document.querySelectorAll(".tealium");
+NodeList(10) [div#block-387009.block.tealium.h1, div#block-922591f4e46d49b0a6f119107148c49e.block.tealium.v1, div#block-422847.block.tealium.wsc-r1, div#block-422850.block.tealium.wsc-r2, div#block-422853.block.tealium.wsc-r3, div#block-387021.block.tealium.compact.r1, div#block-387024.block.tealium.compact.r2, div#block-400292.block.tealium.compact.r3, div#block-d78b6846d21d4fefad8c021275773b94.block.tealium.r03.sticky, div#block-387027.block.tealium.h2]
+0: div#block-387009.block.tealium.h1
+1: div#block-922591f4e46d49b0a6f119107148c49e.block.tealium.v1
+2: div#block-422847.block.tealium.wsc-r1
+3: div#block-422850.block.tealium.wsc-r2
+4: div#block-422853.block.tealium.wsc-r3
+5: div#block-387021.block.tealium.compact.r1
+6: div#block-387024.block.tealium.compact.r2
+7: div#block-400292.block.tealium.compact.r3
+8: div#block-d78b6846d21d4fefad8c021275773b94.block.tealium.r03.sticky
+9: div#block-387027.block.tealium.h2
+length: 10
+__proto__: NodeList
+
+5.a) Wet Bevordering Speur- en Ontwikkelingswerk
+b)Het bijhouden van gewerkte uren en documentatie voor projecten die bij WBSO
+behoren. 
